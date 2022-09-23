@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import React from 'react';
 
 const ArtistName = ({ artists }) => {
@@ -19,8 +20,8 @@ const ArtistName = ({ artists }) => {
                 {index === artists.length - 2
                   ? ' & .'
                   : index < artists.length - 2
-                  ? ', .'
-                  : ' '}
+                    ? ', .'
+                    : ' '}
               </p>
             </div>
           </a>

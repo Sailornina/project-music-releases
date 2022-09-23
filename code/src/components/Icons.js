@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Icons({ link }) {
+const Icons = ({ link }) => {
   // eslint-disable-next-line jsx-quotes
   // 'jsx-closing-bracket-location': [1, 'after-props']
   return (

@@ -22,11 +22,11 @@ const AlbumCard = ({ albumInformation }) => {
         </div>
       </div>
       {/* prettier-ignore */}
-      <div className='name-container'>
-      <AlbumName
-        title={albumInformation.name}
-        link={albumInformation.external_urls.spotify} />
-      <ArtistName artists={albumInformation.artists} />
+      <div className="name-container">
+        <AlbumName
+          title={albumInformation.name}
+          link={albumInformation.external_urls.spotify} />
+        <ArtistName artists={albumInformation.artists} />
       </div>
     </section>
   );
